@@ -26,7 +26,7 @@ Distance - Integer (maximum acceptable distance from city)
 | Data  | {"id": 1, "first_name": "Joe", "last_name": "Bloggs", ... etc}  |
 
 ## Tests
-Testing information here.
+A small set of assertion tests were carried out on the route, to ensure appropriate response codes were delivered, type was JSON and that the JSON was modelled appropriately. Further tests could be created for a response model class, if included. They have been included in this repo in the /tests folder.
 
 ## Credits
 This is the sole work of myself.

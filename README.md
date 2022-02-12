@@ -23,7 +23,7 @@ Distance - Integer (maximum acceptable distance from city)
 | Success  | True  |
 | Code  | 200  |
 | Cache  | False |
-| Data  | {"id": 1, "name": "Joe Bloggs"}  |
+| Data  | {"id": 1, "first_name": "Joe", "last_name": "Bloggs", ... etc}  |
 
 ## Tests
 Testing information here.

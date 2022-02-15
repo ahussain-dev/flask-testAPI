@@ -69,7 +69,7 @@ def unauthorised(error):
     return make_response(jsonify({"success": False, "cache": False, "data": "Unauthorised"}), 401)
 
 
-@app.errorhandler(401)
+@app.errorhandler(403)
 def forbidden(error):
     return make_response(jsonify({"success": False, "cache": False, "data": "Forbidden"}), 403)
 
